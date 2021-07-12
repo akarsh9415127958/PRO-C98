@@ -1,7 +1,7 @@
   
 def swapFileData():
-     file1 = input("enter files name: ") 
-     file2 = input("enter files name: ")
+     file1 = input("enter file name: ") 
+     file2 = input("enter file name: ")
 
      with open(file1, 'r') as a: 
           data_a = a.read()
